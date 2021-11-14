@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B572214627414050008A6F84 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572214527414050008A6F84 /* CustomTabView.swift */; };
 		B5F3F7712732BC13003579A1 /* TabViewBadgesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3F7702732BC13003579A1 /* TabViewBadgesApp.swift */; };
 		B5F3F7732732BC13003579A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3F7722732BC13003579A1 /* ContentView.swift */; };
 		B5F3F7752732BC16003579A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F3F7742732BC16003579A1 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B572214527414050008A6F84 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		B5F3F76D2732BC13003579A1 /* TabViewBadges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewBadges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F3F7702732BC13003579A1 /* TabViewBadgesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBadgesApp.swift; sourceTree = "<group>"; };
 		B5F3F7722732BC13003579A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				B5F3F7702732BC13003579A1 /* TabViewBadgesApp.swift */,
 				B5F3F7722732BC13003579A1 /* ContentView.swift */,
+				B572214527414050008A6F84 /* CustomTabView.swift */,
 				B5F3F7742732BC16003579A1 /* Assets.xcassets */,
 				B5F3F7762732BC16003579A1 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B572214627414050008A6F84 /* CustomTabView.swift in Sources */,
 				B5F3F7732732BC13003579A1 /* ContentView.swift in Sources */,
 				B5F3F7712732BC13003579A1 /* TabViewBadgesApp.swift in Sources */,
 			);
