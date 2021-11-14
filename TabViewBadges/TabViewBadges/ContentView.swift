@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    TabView {
-      ZStack {
-        Image("wallpaper")
-          .resizable()
-          .ignoresSafeArea()
+    ZStack {
+      Image("wallpaper")
+        .resizable()
+        .ignoresSafeArea()
+      CustomTabView {
         ScrollView {
           VStack {
             Text("Hello, world!")
@@ -29,36 +29,31 @@ struct ContentView: View {
           }
           .background(Color.secondary)
         }
-      }
-      .tabItem {
-        Image(systemName: "paperplane")
-        Text("Email")
-      }
-      .badge(
-        Text("3")
-          .foregroundColor(.white)
-      )
-      Text("Hello, world!")
-        .tabItem {
-          Image(systemName: "icloud.slash")
-          Text("Other")
+        .customTabItem {
+          Image(systemName: "paperplane")
+          Text("Email")
         }
-      Text("Hello, world!")
-        .tabItem {
-          Image(systemName: "ellipsis.circle")
-          Text("More")
+        Text("Other, world!")
+          .customTabItem {
+            Image(systemName: "icloud.slash")
+            Text("Other")
+          }
+        Text("More, world!")
+          .customTabItem {
+            Image(systemName: "ellipsis.circle")
+            Text("More")
+          }
+        Text("Chat, world!")
+          .customTabItem {
+            Image(systemName: "text.bubble")
+            Text("Chat")
+          }
+        Text("Settings, world!")
+          .customTabItem {
+            Image(systemName: "gearshape")
+            Text("Settings")
+          }
         }
-      Text("Hello, world!")
-        .tabItem {
-          Image(systemName: "text.bubble")
-          Text("Chat")
-        }
-      Text("Hello, world!")
-        .tabItem {
-          Image(systemName: "gearshape")
-          Text("Settings")
-        }
-        .badge("1 new")
     }
   }
 }
